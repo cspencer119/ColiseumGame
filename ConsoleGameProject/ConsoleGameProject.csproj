@@ -44,8 +44,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Attack.cs" />
-    <Compile Include="Challenger.cs" />
     <Compile Include="Opponent\Aethelred_Unready.cs" />
     <Compile Include="Opponent\Arjuna.cs" />
     <Compile Include="Opponent\Jacob_Unstoppable.cs" />
@@ -53,13 +51,12 @@
     <Compile Include="Opponent\Opponents.cs" />
     <Compile Include="Opponent\Radahn_Prepared.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="ProgramUI.cs" />
+    <Compile Include="..\..\ProgramUI.cs">
+      <Link>ProgramUI.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Africa.wav">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="John Williams - Duel of the Fates %28Star Wars Soundtrack%29 [HQ].wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
